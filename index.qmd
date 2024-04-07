@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Statistics"
 subtitle: "Course Overview"
 ---
 
-Welcome to our course! 👋  
+Welcome to our course Statistics (337094b)! 👋  
 
 This page contains a weekly overview about the topics, slides and materials for the semester.
 
-- [Moodle-course]()
+- [Moodle-course](https://moodle.hdm-stuttgart.de/course/view.php?id=2464)
 
 
 :::{.callout-note}
