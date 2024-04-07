@@ -2,18 +2,16 @@
 title: "Syllabus"
 ---
 
-::: {.content-visible when-format="html"}
-[**Click here**](syllabus.pdf) **to download a PDF copy of the syllabus.**
-:::
-
-
 ## Course info
 
 |           | Day       | Time              | Location |
 |-----------|-----------|-------------------|----------|
-| Lecture   | xyz    | xx:xx  - xx:xx xx |  xx  |
+| Lecture   | Tuesday    | 08:15  - 09:45 am  |  [016b](https://horst.hdm-stuttgart.de/171)  |
 
 
+:::{.callout-important}
+Note that there are additional lectures (see schedule at [StarPlan](https://splan.hdm-stuttgart.de/splan/))
+:::
 
 ## Learning objectives
 
@@ -24,8 +22,7 @@ By the end of this module, students are able to:
 - Create effective charts and visualizations
 - Develop predictive models
 - Clearly and effectively communicate statistical results
-- Utilize modern tools and technologies for data analysis
-
+- Utilize modern tools and technologies (like Generative AI) for data analysis
 
 ## Where to get help
 
