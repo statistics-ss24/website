@@ -1,0 +1,15 @@
+---
+title: ""
+subtitle: "Course Overview"
+---
+
+Welcome to our course! 👋  
+
+This page contains a weekly overview about the topics, slides and materials for the semester.
+
+- [Moodle-course]()
+
+
+:::{.callout-note}
+This overview will be updated as the semester progresses.
+:::
