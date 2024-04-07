@@ -10,6 +10,7 @@ This page contains a weekly overview about the topics, slides and materials for 
 - [Moodle-course](https://moodle.hdm-stuttgart.de/course/view.php?id=2464)
 
 
+
 :::{.callout-note}
 This overview will be updated as the semester progresses.
 :::
