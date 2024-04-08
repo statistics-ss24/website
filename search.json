@@ -1,5 +1,59 @@
 [
   {
+    "objectID": "programming-requirements.html",
+    "href": "programming-requirements.html",
+    "title": "Requirements",
+    "section": "",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "crumbs": [
+      "Programming",
+      "Requirements"
+    ]
+  },
+  {
+    "objectID": "code/notebook.html",
+    "href": "code/notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#setup",
+    "href": "code/notebook.html#setup",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#data",
+    "href": "code/notebook.html#data",
+    "title": "Notebook",
+    "section": "Data",
+    "text": "Data"
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n\n\n💻\n📊\n\n\n3\n09.04.\nData basics\n📚\n\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n\n\n💻\n💽 loans.csv",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
     "objectID": "course-support.html",
     "href": "course-support.html",
     "title": "Course support",
@@ -53,38 +107,6 @@
       "Course information",
       "Support"
     ]
-  },
-  {
-    "objectID": "programming-requirements.html",
-    "href": "programming-requirements.html",
-    "title": "Requirements",
-    "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
-    "crumbs": [
-      "Programming",
-      "Requirements"
-    ]
-  },
-  {
-    "objectID": "code/notebook.html",
-    "href": "code/notebook.html",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#setup",
-    "href": "code/notebook.html#setup",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#data",
-    "href": "code/notebook.html#data",
-    "title": "Notebook",
-    "section": "Data",
-    "text": "Data"
   },
   {
     "objectID": "course-syllabus.html",
@@ -150,28 +172,6 @@
     "crumbs": [
       "Course information",
       "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
-    "section": "",
-    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.",
-    "crumbs": [
-      "Course information",
-      "Schedule"
     ]
   }
 ]
