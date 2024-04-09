@@ -47,7 +47,7 @@
     "href": "index.html",
     "title": "Statistics",
     "section": "",
-    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n\n\n💻\n📊\n\n\n3\n09.04.\nData basics\n📚\n\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n\n\n💻\n💽 loans.csv",
+    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n09.04.\nData basics\n📚\n\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv",
     "crumbs": [
       "Course information",
       "Schedule"
