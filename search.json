@@ -1,35 +1,14 @@
 [
   {
-    "objectID": "programming-requirements.html",
-    "href": "programming-requirements.html",
-    "title": "Requirements",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics",
     "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\nData basics\n\n\n\n\n\n\n\n\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\nEDA with categorical data\n\n\n\n\n\n\n\n\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n16.04.\nPie chart\n📚\n📑\n\n\n\n\n\nEDA with numerical data\n\n\n\n\n\n\n\n\n23.04.\nScatterplot\n📚\n📑\n\n💻\n\n\n\n23.04.\nDot plot mean median and mode\n📚\n📑\n\n💻\n\n\n\n23.04.\nHistogram\n📚\n📑\n\n💻\n\n\n\n30.04.\nBox Plot\n📚\n\n\n💻\n\n\n\n23.04.\nVariance and standard deviation\n📚\n📑\n\n\n💽 Google Sheets",
     "crumbs": [
-      "Programming",
-      "Requirements"
+      "Course information",
+      "Schedule"
     ]
-  },
-  {
-    "objectID": "code/notebook.html",
-    "href": "code/notebook.html",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#setup",
-    "href": "code/notebook.html#setup",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#data",
-    "href": "code/notebook.html#data",
-    "title": "Notebook",
-    "section": "Data",
-    "text": "Data"
   },
   {
     "objectID": "course-overview.html",
@@ -40,17 +19,6 @@
     "crumbs": [
       "Course information",
       "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n8\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n9\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n10\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv",
-    "crumbs": [
-      "Course information",
-      "Schedule"
     ]
   },
   {
@@ -173,5 +141,37 @@
       "Course information",
       "Syllabus"
     ]
+  },
+  {
+    "objectID": "programming-requirements.html",
+    "href": "programming-requirements.html",
+    "title": "Requirements",
+    "section": "",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "crumbs": [
+      "Programming",
+      "Requirements"
+    ]
+  },
+  {
+    "objectID": "code/notebook.html",
+    "href": "code/notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#setup",
+    "href": "code/notebook.html#setup",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#data",
+    "href": "code/notebook.html#data",
+    "title": "Notebook",
+    "section": "Data",
+    "text": "Data"
   }
 ]
