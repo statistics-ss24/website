@@ -1,24 +1,34 @@
 [
   {
+    "objectID": "code/notebook.html",
+    "href": "code/notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#setup",
+    "href": "code/notebook.html#setup",
+    "title": "Notebook",
+    "section": "",
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
+  },
+  {
+    "objectID": "code/notebook.html#data",
+    "href": "code/notebook.html#data",
+    "title": "Notebook",
+    "section": "Data",
+    "text": "Data"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Statistics",
     "section": "",
-    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n8\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n9\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n10\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n11\n16.04.\nPie chart\n📚\n📑\n\n\n\n\n\n12\n\nEDA with numerical data\n\n\n\n\n\n\n\n13\n23.04.\nScatterplot\n📚\n📑\n\n💻\n\n\n\n14\n23.04.\nDot plot mean median and mode\n📚\n📑\n\n💻\n\n\n\n15\n23.04.\nHistogram\n📚\n📑\n\n💻\n\n\n\n16\n30.04.\nWiederholung Deskriptive Statistik\n\n📑\n📊\n\n\n\n\n17\n30.04.\nBox Plot\n📚\n📑\n\n💻\n\n\n\n18\n23.04.\nVariance and standard deviation\n📚\n📑\n\n\n💽 Google Sheets\n\n\n19\n07.05.\nComparing numerical data across groups\n📚\n📑\n📊\n\n\n\n\n20\n07.05.\nRobust statistics and transformations\n📚\n📑\n📊\n\n\n\n\n21\n\nLinear Regression\n\n\n\n\n\n\n\n22\n07.05.\nCorrelation\n📚\n📑\n☑️\n\n\n\n\n23\n14.05.\nSales and ads\n\n📑\n\n💻\n\n\n\n23\n14.05.\nMean squared error\n\n📑",
+    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n8\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n9\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n10\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n11\n16.04.\nPie chart\n📚\n📑\n\n\n\n\n\n12\n\nEDA with numerical data\n\n\n\n\n\n\n\n13\n23.04.\nScatterplot\n📚\n📑\n\n💻\n\n\n\n14\n23.04.\nDot plot mean median and mode\n📚\n📑\n\n💻\n\n\n\n15\n23.04.\nHistogram\n📚\n📑\n\n💻\n\n\n\n16\n30.04.\nWiederholung Deskriptive Statistik\n\n📑\n📊\n\n\n\n\n17\n30.04.\nBox Plot\n📚\n📑\n\n💻\n\n\n\n18\n23.04.\nVariance and standard deviation\n📚\n📑\n\n\n💽 Google Sheets\n\n\n19\n07.05.\nComparing numerical data across groups\n📚\n📑\n📊\n\n\n\n\n20\n07.05.\nRobust statistics and transformations\n📚\n📑\n📊\n\n\n\n\n21\n\nLinear Regression\n\n\n\n\n\n\n\n22\n07.05.\nCorrelation\n📚\n📑\n☑️\n\n\n\n\n23\n14.05.\nSales and ads\n\n📑\n\n💻\n\n\n\n23\n14.05.\nMean squared error\n\n📑\n\n\n\n\n\n24\n28.05.\nFitting a line and residuals\n📚\n\n☑️\n💻\n\n\n\n25\n28.05.\nLeast squares regression\n📚\n\n\n💻\n\n\n\n26\n28.05.\nR squared\n📚\n\n\n💻\n\n\n\n27\n28.05.\nCategorical predictors with two levels\n📚\n\n\n💻\n\n\n\n28\n28.05.\nOutliers\n📚",
     "crumbs": [
       "Course information",
       "Schedule"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
-    "section": "",
-    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
-    "crumbs": [
-      "Course information",
-      "Overview"
     ]
   },
   {
@@ -74,6 +84,28 @@
     "crumbs": [
       "Course information",
       "Support"
+    ]
+  },
+  {
+    "objectID": "programming-requirements.html",
+    "href": "programming-requirements.html",
+    "title": "Requirements",
+    "section": "",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "crumbs": [
+      "Programming",
+      "Requirements"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
+    "crumbs": [
+      "Course information",
+      "Overview"
     ]
   },
   {
@@ -141,37 +173,5 @@
       "Course information",
       "Syllabus"
     ]
-  },
-  {
-    "objectID": "programming-requirements.html",
-    "href": "programming-requirements.html",
-    "title": "Requirements",
-    "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment mr and Visual Studio Code\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
-    "crumbs": [
-      "Programming",
-      "Requirements"
-    ]
-  },
-  {
-    "objectID": "code/notebook.html",
-    "href": "code/notebook.html",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#setup",
-    "href": "code/notebook.html#setup",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#data",
-    "href": "code/notebook.html#data",
-    "title": "Notebook",
-    "section": "Data",
-    "text": "Data"
   }
 ]
