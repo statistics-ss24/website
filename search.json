@@ -1,34 +1,79 @@
 [
   {
-    "objectID": "code/notebook.html",
-    "href": "code/notebook.html",
-    "title": "Notebook",
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#setup",
-    "href": "code/notebook.html#setup",
-    "title": "Notebook",
-    "section": "",
-    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
-  },
-  {
-    "objectID": "code/notebook.html#data",
-    "href": "code/notebook.html#data",
-    "title": "Notebook",
-    "section": "Data",
-    "text": "Data"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistics",
-    "section": "",
-    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n8\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n9\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n10\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n11\n16.04.\nPie chart\n📚\n📑\n\n\n\n\n\n12\n\nEDA with numerical data\n\n\n\n\n\n\n\n13\n23.04.\nScatterplot\n📚\n📑\n\n💻\n\n\n\n14\n23.04.\nDot plot mean median and mode\n📚\n📑\n\n💻\n\n\n\n15\n23.04.\nHistogram\n📚\n📑\n\n💻\n\n\n\n16\n30.04.\nWiederholung Deskriptive Statistik\n\n📑\n📊\n\n\n\n\n17\n30.04.\nBox Plot\n📚\n📑\n\n💻\n\n\n\n18\n23.04.\nVariance and standard deviation\n📚\n📑\n\n\n💽 Google Sheets\n\n\n19\n07.05.\nComparing numerical data across groups\n📚\n📑\n📊\n\n\n\n\n20\n07.05.\nRobust statistics and transformations\n📚\n📑\n📊\n\n\n\n\n21\n\nLinear Regression\n\n\n\n\n\n\n\n22\n07.05.\nCorrelation\n📚\n📑\n☑️\n\n\n\n\n23\n14.05.\nSales and ads\n\n📑\n\n💻\n\n\n\n24\n14.05.\nMean squared error\n\n📑\n\n\n\n\n\n25\n28.05.\nFitting a line and residuals\n📚\n📑\n☑️\n💻\n\n\n\n26\n28.05.\nLeast squares regression\n📚\n📑\n\n💻\n\n\n\n27\n04.06.\nR squared\n📚\n📑\n\n💻\n\n\n\n28\n04.06.\nCategorical predictors with two levels\n📚\n📑\n\n💻\n\n\n\n29\n11.06.\nOutliers\n📚\n\n\n\n\n\n\n30\n11.06.\nMultiple predictors regression\n📚\n\n☑️\n\n\n\n\n31\n11.06.\nJupyter Notebook 08a-1\n\n\n\n💻\n\n\n\n32\n11.06.\nJupyter Notebook 08a-2\n\n\n\n💻\n\n\n\n33\n11.06.\nJupyter Notebook 08a-3\n\n\n\n💻",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nTuesday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
     "crumbs": [
       "Course information",
-      "Schedule"
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#course-info",
+    "href": "course-syllabus.html#course-info",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nTuesday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#learning-objectives",
+    "href": "course-syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of this module, students are able to:\n\nUnderstand statistical terms and concepts\nRecognize patterns in data\nCreate effective charts and visualizations\nDevelop predictive models\nClearly and effectively communicate statistical results\nUtilize modern tools and technologies (like Generative AI) for data analysis",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#where-to-get-help",
+    "href": "course-syllabus.html#where-to-get-help",
+    "title": "Syllabus",
+    "section": "Where to get help",
+    "text": "Where to get help\n\nIf you have a question during lecture, feel free to ask it!\nOutside of class, any general questions about course content or assignments should be posted on the Moodle course forum.\nEmails should be reserved for questions not appropriate for the public forum. If you email me, please include the name of our course in the subject line.\n\nCheck out the Support page for more resources.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#textbooks",
+    "href": "course-syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\nThis course is mainly based on the following book:\nÇetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#sec-exams",
+    "href": "course-syllabus.html#sec-exams",
+    "title": "Syllabus",
+    "section": "Exams",
+    "text": "Exams\nThere will be one exam. More details about the exams will be given during the semester.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
+    "crumbs": [
+      "Course information",
+      "Overview"
     ]
   },
   {
@@ -98,80 +143,35 @@
     ]
   },
   {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
+    "objectID": "code/notebook.html",
+    "href": "code/notebook.html",
+    "title": "Notebook",
     "section": "",
-    "text": "This course provides an in-depth look at both basic and advanced statistical methods, aimed at fostering a deep understanding of data analysis and statistical inference.\nUsing Python and Excel, the curriculum focuses on equipping students with the skills to effectively analyze, interpret, and present data. The content spans from data fundamentals, through exploratory data analysis of both categorical and numerical data, to more complex topics such as linear regression, logistic regression, and the foundations of statistical inference. The course culminates in applying these concepts to hypothesis testing and real-world data analysis. By the end, students will be adept at using statistical techniques and ready for careers or further study requiring data analysis proficiency.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
   },
   {
-    "objectID": "course-syllabus.html",
-    "href": "course-syllabus.html",
-    "title": "Syllabus",
+    "objectID": "code/notebook.html#setup",
+    "href": "code/notebook.html#setup",
+    "title": "Notebook",
     "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nTuesday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
+    "text": "Load Python libaries and API keys.\n\nimport os\nimport openai\nimport pandas as pd\nimport altair as alt\nfrom dotenv import load_dotenv, find_dotenv\n\n\n_ = load_dotenv(find_dotenv()) # read local .env file\nopenai.api_key  = os.environ['OPENAI_API_KEY']"
   },
   {
-    "objectID": "course-syllabus.html#course-info",
-    "href": "course-syllabus.html#course-info",
-    "title": "Syllabus",
+    "objectID": "code/notebook.html#data",
+    "href": "code/notebook.html#data",
+    "title": "Notebook",
+    "section": "Data",
+    "text": "Data"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics",
     "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nTuesday\n08:15 - 09:45 am\n016b\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nNote that there are additional lectures (see schedule at StarPlan)",
+    "text": "Welcome to our course Statistics (337094b)! 👋\nThis page contains a weekly overview about the topics, slides and materials for the semester.\n\nMoodle-course\n\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses.\n\n\n\n\n\nNr\nDate\nTopic\nLiterature\nSlides\nLinks\nCode\nData\n\n\n\n\n1\n\nData basics\n\n\n\n\n\n\n\n2\n09.04.\nFirst Data Analysis\n📚\n📑\n\n💻\n📊\n\n\n3\n16.04.\nData basics\n📚\n📑\n☑️\n\n\n\n\n4\n09.04.\nLoans data\n📚\n📑\n\n\n💽 loans.csv\n\n\n5\n\nEDA with categorical data\n\n\n\n\n\n\n\n6\n09.04.\nContingency tables\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n7\n09.04.\nContingency tables with proportions\n📚\n📑\n\n💻\n💽 loans.csv\n\n\n8\n16.04.\nSimple bar chart\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n9\n16.04.\nStacked bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n10\n16.04.\nStandardized bar plot\n📚\n📑\n\n💻\n💽 loan50.csv\n\n\n11\n16.04.\nPie chart\n📚\n📑\n\n\n\n\n\n12\n\nEDA with numerical data\n\n\n\n\n\n\n\n13\n23.04.\nScatterplot\n📚\n📑\n\n💻\n\n\n\n14\n23.04.\nDot plot mean median and mode\n📚\n📑\n\n💻\n\n\n\n15\n23.04.\nHistogram\n📚\n📑\n\n💻\n\n\n\n16\n30.04.\nWiederholung Deskriptive Statistik\n\n📑\n📊\n\n\n\n\n17\n30.04.\nBox Plot\n📚\n📑\n\n💻\n\n\n\n18\n23.04.\nVariance and standard deviation\n📚\n📑\n\n\n💽 Google Sheets\n\n\n19\n07.05.\nComparing numerical data across groups\n📚\n📑\n📊\n\n\n\n\n20\n07.05.\nRobust statistics and transformations\n📚\n📑\n📊\n\n\n\n\n21\n\nLinear Regression\n\n\n\n\n\n\n\n22\n07.05.\nCorrelation\n📚\n📑\n☑️\n\n\n\n\n23\n14.05.\nSales and ads\n\n📑\n\n💻\n\n\n\n24\n14.05.\nMean squared error\n\n📑\n\n\n\n\n\n25\n28.05.\nFitting a line and residuals\n📚\n📑\n☑️\n💻\n\n\n\n26\n28.05.\nLeast squares regression\n📚\n📑\n\n💻\n\n\n\n27\n04.06.\nR squared\n📚\n📑\n\n💻\n\n\n\n28\n04.06.\nCategorical predictors with two levels\n📚\n📑\n\n💻\n\n\n\n29\n11.06.\nOutliers\n📚\n\n\n\n\n\n\n30\n11.06.\nMultiple predictors regression\n📚\n\n☑️\n\n\n\n\n31\n11.06.\nJupyter Notebook 08a-1\n\n\n\n💻\n\n\n\n32\n11.06.\nJupyter Notebook 08a-2\n\n\n\n💻\n\n\n\n33\n11.06.\nJupyter Notebook 08a-3\n\n\n\n💻\n\n\n\n34\n\nClassification with Logistic Regression\n\n\n\n\n\n\n\n35\n11.06.\nClassification\n\n📑\n\n💻\n\n\n\n36\n11.06.\nPrecision recall and F1 score\n📚\n\n\n\n\n\n\n37\n11.06.\nROC Curve and AUC\n📚\n\n\n💻",
     "crumbs": [
       "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#learning-objectives",
-    "href": "course-syllabus.html#learning-objectives",
-    "title": "Syllabus",
-    "section": "Learning objectives",
-    "text": "Learning objectives\nBy the end of this module, students are able to:\n\nUnderstand statistical terms and concepts\nRecognize patterns in data\nCreate effective charts and visualizations\nDevelop predictive models\nClearly and effectively communicate statistical results\nUtilize modern tools and technologies (like Generative AI) for data analysis",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#where-to-get-help",
-    "href": "course-syllabus.html#where-to-get-help",
-    "title": "Syllabus",
-    "section": "Where to get help",
-    "text": "Where to get help\n\nIf you have a question during lecture, feel free to ask it!\nOutside of class, any general questions about course content or assignments should be posted on the Moodle course forum.\nEmails should be reserved for questions not appropriate for the public forum. If you email me, please include the name of our course in the subject line.\n\nCheck out the Support page for more resources.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#textbooks",
-    "href": "course-syllabus.html#textbooks",
-    "title": "Syllabus",
-    "section": "Textbooks",
-    "text": "Textbooks\nThis course is mainly based on the following book:\nÇetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#sec-exams",
-    "href": "course-syllabus.html#sec-exams",
-    "title": "Syllabus",
-    "section": "Exams",
-    "text": "Exams\nThere will be one exam. More details about the exams will be given during the semester.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
+      "Schedule"
     ]
   }
 ]
