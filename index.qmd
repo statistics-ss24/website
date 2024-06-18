@@ -15,7 +15,6 @@ This page contains a weekly overview about the topics, slides and materials for 
 This overview will be updated as the semester progresses.
 :::
 
-
 |	Nr	|	Date	|	Topic	|	Literature	|		Slides		|	Links	|	Code	|	Data	|
 |	---	|	---	|	---	|	---	|		---		|	---	|	---	|	---	|
 |	1	|		|	**Data basics**	|		|				|		|		|		|
@@ -51,3 +50,7 @@ This overview will be updated as the semester progresses.
 |	31	|	11.06.	|	Jupyter Notebook 08a-1	|		|	<!--		-->	|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-1-multiple.ipynb)	|		|
 |	32	|	11.06.	|	Jupyter Notebook 08a-2	|		|	<!--		-->	|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-2-multiple.ipynb)	|		|
 |	33	|	11.06.	|	Jupyter Notebook 08a-3	|		|	<!--		-->	|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/08a-3-multiple.ipynb)	|		|
+|	34	|		|	**Classification with Logistic Regression**	|		|	<!--		-->	|		|		|		|
+|	35	|	11.06.	|	Classification	|		|		[📑](https://docs.google.com/presentation/d/1Uait12xIaTM9rdyxSEnzIbR8opENnoOOPefuPocze3s/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/09a-logistic.ipynb)	|		|
+|	36	|	11.06.	|	Precision recall and F1 score	|	[📚](https://mlu-explain.github.io/precision-recall/)	|	<!--	[📑](https://docs.google.com/presentation/d/1X3_Ju8egEA8GwH_r76rxHHoC7tvHt8tMWXyT9WKfUko/export/pdf)	-->	|		|		|		|
+|	37	|	11.06.	|	ROC Curve and AUC	|	[📚](https://mlu-explain.github.io/roc-auc/)	|	<!--	[📑](https://docs.google.com/presentation/d/1wapuNTe4wVBUZVmH_X6-OxZlWkQL_YkhHsqZttQUWZk/export/pdf)	-->	|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/13a-mathematical-c.ipynb)	|		|
