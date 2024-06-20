@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://statistics-ss24.github.io/website/code/notebook.html</loc>
-    <lastmod>2024-06-18T07:51:21.084Z</lastmod>
-  </url>
-  <url>
-    <loc>https://statistics-ss24.github.io/website/index.html</loc>
-    <lastmod>2024-06-18T07:51:21.088Z</lastmod>
-  </url>
-  <url>
-    <loc>https://statistics-ss24.github.io/website/course-support.html</loc>
-    <lastmod>2024-06-18T07:51:21.084Z</lastmod>
-  </url>
-  <url>
-    <loc>https://statistics-ss24.github.io/website/programming-requirements.html</loc>
-    <lastmod>2024-06-18T07:51:21.088Z</lastmod>
+    <loc>https://statistics-ss24.github.io/website/course-syllabus.html</loc>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
   </url>
   <url>
     <loc>https://statistics-ss24.github.io/website/course-overview.html</loc>
-    <lastmod>2024-06-18T07:51:21.084Z</lastmod>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
   </url>
   <url>
-    <loc>https://statistics-ss24.github.io/website/course-syllabus.html</loc>
-    <lastmod>2024-06-18T07:51:21.084Z</lastmod>
+    <loc>https://statistics-ss24.github.io/website/course-support.html</loc>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statistics-ss24.github.io/website/programming-requirements.html</loc>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statistics-ss24.github.io/website/code/notebook.html</loc>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statistics-ss24.github.io/website/index.html</loc>
+    <lastmod>2024-06-20T10:07:42.316Z</lastmod>
   </url>
 </urlset>
