@@ -59,8 +59,8 @@ This overview will be updated as the semester progresses.
 |	39	|		|	**Foundations of inference**	|		|				|		|		|	
 |	40	|	18.06.	|	Introduction to mathematical models	|	[📚](https://openintro-ims.netlify.app/foundations-mathematical.html)	|		[📑](https://docs.google.com/presentation/d/16CnOWEpi1E7ThpWlEJ4CaSNFmqRfFM322lUXXwFmKeQ/export/pdf)		|		|	[💻](https://colab.research.google.com/github/kirenz/lab-ims/blob/main/ims/13a-mathematical-c.ipynb)	|	
 |	41	|	25.06.	|	Mathematical cases and confidence	|	[📚](https://openintro-ims.netlify.app/foundations-mathematical.html#caseopp)	|		[📑](https://docs.google.com/presentation/d/1q-m2yp2zFZW3plabPVkDbUQxypoiUujbk4rmA4K_kHw/export/pdf)		|		|		|	
-|	33	|	25.06.	|	Hypothesis testing	|	[📚](https://openintro-ims.netlify.app/foundations-randomization.html)	|		[📑](https://docs.google.com/presentation/d/1dhTaUlY3rjhBhUcTSL3Pf708DT3jCDQtrnlflACI1a8/export/pdf)		|		|		|	
-|	34	|	25.06.	|	P-value and significance	|	[📚](https://openintro-ims.netlify.app/foundations-randomization.html#p-value-and-statistical-significance)	|		[📑](https://docs.google.com/presentation/d/1WObu30GH9KkutJ11tsAHnFWSNga3DfQyoIJoZM8S2TI/export/pdf)		|		|		|	
-|	35	|	25.06.	|	Decision errors	|	[📚](https://openintro-ims.netlify.app/decerr.html)	|		[📑](https://docs.google.com/presentation/d/1ei-Tt6pqpPl_5oiMDMA9Coavf3ksCauxsJx2oK4U6L0/export/pdf)		|		|		|	
-|	42	|		|	**Statistical inference**	|		|				|		|		|	
-|	43	|	25.06.	|	Single proportion mathematical	|	[📚](https://openintro-ims.netlify.app/inference-one-prop.html#one-prop-norm)	|		[📑](https://docs.google.com/presentation/d/120AeFtpSKdjaDM9JFoM4d0_hDvgtWrl5DQTncSHISIU/export/pdf)		|		|		|	
+|	42	|	25.06.	|	Hypothesis testing	|	[📚](https://openintro-ims.netlify.app/foundations-randomization.html)	|		[📑](https://docs.google.com/presentation/d/1dhTaUlY3rjhBhUcTSL3Pf708DT3jCDQtrnlflACI1a8/export/pdf)		|		|		|	
+|	43	|	25.06.	|	P-value and significance	|	[📚](https://openintro-ims.netlify.app/foundations-randomization.html#p-value-and-statistical-significance)	|		[📑](https://docs.google.com/presentation/d/1WObu30GH9KkutJ11tsAHnFWSNga3DfQyoIJoZM8S2TI/export/pdf)		|		|		|	
+|	44	|	25.06.	|	Decision errors	|	[📚](https://openintro-ims.netlify.app/decerr.html)	|		[📑](https://docs.google.com/presentation/d/1ei-Tt6pqpPl_5oiMDMA9Coavf3ksCauxsJx2oK4U6L0/export/pdf)		|		|		|	
+|	45	|		|	**Statistical inference**	|		|				|		|		|	
+|	46	|	25.06.	|	Single proportion mathematical	|	[📚](https://openintro-ims.netlify.app/inference-one-prop.html#one-prop-norm)	|		[📑](https://docs.google.com/presentation/d/120AeFtpSKdjaDM9JFoM4d0_hDvgtWrl5DQTncSHISIU/export/pdf)		|		|		|	
