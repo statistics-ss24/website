@@ -36,7 +36,7 @@ Check out the [Support](course-support.qmd) page for more resources.
 
 This course is mainly based on the following book:
 
-[Çetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics. OpenIntro. Inc.](https://openintro-ims.netlify.app/)
+[Çetinkaya-Rundel, M. & Hardin, J (2023). Introduction to Modern Statistics (First Edition). OpenIntro. Inc.](https://openintro-ims1.netlify.app/)
 
 ## Exams {#sec-exams}
 
